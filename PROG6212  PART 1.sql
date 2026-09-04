@@ -98,4 +98,5 @@
 --SELECT * FROM Events;
 --SELECT * FROM Categories; 
 --SELECT * FROM Enrolments;
-SELECT * FROM Results;
+--SELECT * FROM Results;
+
