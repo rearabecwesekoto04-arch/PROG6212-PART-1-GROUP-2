@@ -96,4 +96,5 @@
 --SELECT * FROM Roles;
 --SELECT * FROM Users;
 --SELECT * FROM Events;
-SELECT * FROM Categories; 
+--SELECT * FROM Categories; 
+SELECT * FROM Enrolments;
