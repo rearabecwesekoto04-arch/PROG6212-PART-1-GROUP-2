@@ -74,14 +74,17 @@
 --(1, 'SOWETO COMMUNITY FUN RUN', 'FAMILY_FRIENDLY WALK AND RUN EVENT SUPPORTING LOCAL CHARITIES.', '2026-11-13 07:00:00', 'SOWETO, GAUTENG', 10.0, 'WALK', 'LOOP ROUTE AROUND ORLANDO STADIUM.'),
 --(2, 'CAPE WINELANDS CYCLE CHALLENGE', 'SCENIC CYCLING TOUR THROUGH THE CAPE WINELANDS.', '2026-11-08 06:30:00', 'STELLENBOSCH, WESTERN CAPE', 100.0, 'CYCLE', 'HILLY ROUTE WITH TWO MAJOR CLIMBS, MARSHALS AT EVERY JUNCTION.');
 
-INSERT INTO Categories (EventID, CategoryName, CategoryType, DistanceKM, MinAge, MaxAge, Price, MaxParticipants) VALUES 
-(1, 'Full Marathon (42.2km)', 'Distance', 42.2, NULL, NULL, 350.00, 3000), 
-(1, 'Half Marathon (21.1km)', 'Distance', 21.1, NULL, NULL, 250.00, 3000),
-(2, '5km Fun Run', 'Distance', 5.0, NULL, NULL, 50.00, 1000), 
-(2, 'Under 20', 'Age', NULL, 0, 19, 30.00, 300),
-(2, 'Senior (50+)', 'Age', NULL, 50, NULL, 30.00, 300),
-(3, '60km Cycle', 'Distance', 60.0, NULL, NULL, 300.00, 500),
-(3, '100km Cycle', 'Distance', 100.0, NULL, NULL, 400.00, 500);
+--INSERT INTO Categories (EventID, CategoryName, CategoryType, DistanceKM, MinAge, MaxAge, Price, MaxParticipants) VALUES 
+--(1, 'Full Marathon (42.2km)', 'Distance', 42.2, NULL, NULL, 350.00, 3000), 
+--(1, 'Half Marathon (21.1km)', 'Distance', 21.1, NULL, NULL, 250.00, 3000),
+--(2, '5km Fun Run', 'Distance', 5.0, NULL, NULL, 50.00, 1000), 
+--(2, 'Under 20', 'Age', NULL, 0, 19, 30.00, 300),
+--(2, 'Senior (50+)', 'Age', NULL, 50, NULL, 30.00, 300),
+--(3, '60km Cycle', 'Distance', 60.0, NULL, NULL, 300.00, 500),
+--(3, '100km Cycle', 'Distance', 100.0, NULL, NULL, 400.00, 500);
+
+INSERT INTO Enrolments (ParticipantID, CategoryID, Status) VALUES (3, 2, 'Confirmed'), (3, 3, 'Confirmed'), (4, 1, 'Confirmed'), (4, 6, 'Confirmed');
+
 
 
 
