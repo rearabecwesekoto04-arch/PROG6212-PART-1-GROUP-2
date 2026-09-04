@@ -94,4 +94,5 @@
 --(3, '03:58:10', 45, 'Finished'); 
 
 --SELECT * FROM Roles;
-SELECT * FROM Users;
+--SELECT * FROM Users;
+SELECT * FROM Events;
