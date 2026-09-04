@@ -95,4 +95,5 @@
 
 --SELECT * FROM Roles;
 --SELECT * FROM Users;
-SELECT * FROM Events;
+--SELECT * FROM Events;
+SELECT * FROM Categories; 
