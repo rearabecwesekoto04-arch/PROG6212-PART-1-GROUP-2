@@ -75,6 +75,11 @@
 --(2, 'CAPE WINELANDS CYCLE CHALLENGE', 'SCENIC CYCLING TOUR THROUGH THE CAPE WINELANDS.', '2026-11-08 06:30:00', 'STELLENBOSCH, WESTERN CAPE', 100.0, 'CYCLE', 'HILLY ROUTE WITH TWO MAJOR CLIMBS, MARSHALS AT EVERY JUNCTION.');
 
 INSERT INTO Categories (EventID, CategoryName, CategoryType, DistanceKM, MinAge, MaxAge, Price, MaxParticipants) VALUES 
-(1, 'Full Marathon (42.2km)', 'Distance', 42.2, NULL, NULL, 350.00, 3000), (1, 'Half Marathon (21.1km)', 'Distance', 21.1, NULL, NULL, 250.00, 3000);
+(1, 'Full Marathon (42.2km)', 'Distance', 42.2, NULL, NULL, 350.00, 3000), 
+(1, 'Half Marathon (21.1km)', 'Distance', 21.1, NULL, NULL, 250.00, 3000),
+(2, '5km Fun Run', 'Distance', 5.0, NULL, NULL, 50.00, 1000), 
+(2, 'Under 20', 'Age', NULL, 0, 19, 30.00, 300);
+
+
 
 
