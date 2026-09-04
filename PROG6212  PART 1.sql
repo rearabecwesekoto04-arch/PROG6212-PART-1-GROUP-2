@@ -78,7 +78,10 @@ INSERT INTO Categories (EventID, CategoryName, CategoryType, DistanceKM, MinAge,
 (1, 'Full Marathon (42.2km)', 'Distance', 42.2, NULL, NULL, 350.00, 3000), 
 (1, 'Half Marathon (21.1km)', 'Distance', 21.1, NULL, NULL, 250.00, 3000),
 (2, '5km Fun Run', 'Distance', 5.0, NULL, NULL, 50.00, 1000), 
-(2, 'Under 20', 'Age', NULL, 0, 19, 30.00, 300);
+(2, 'Under 20', 'Age', NULL, 0, 19, 30.00, 300),
+(2, 'Senior (50+)', 'Age', NULL, 50, NULL, 30.00, 300),
+(3, '60km Cycle', 'Distance', 60.0, NULL, NULL, 300.00, 500),
+(3, '100km Cycle', 'Distance', 100.0, NULL, NULL, 400.00, 500);
 
 
 
