@@ -83,9 +83,9 @@
 --(3, '60km Cycle', 'Distance', 60.0, NULL, NULL, 300.00, 500),
 --(3, '100km Cycle', 'Distance', 100.0, NULL, NULL, 400.00, 500);
 
-INSERT INTO Enrolments (ParticipantID, CategoryID, Status) VALUES (3, 2, 'Confirmed'), (3, 3, 'Confirmed'), (4, 1, 'Confirmed'), (4, 6, 'Confirmed');
+--INSERT INTO Enrolments (ParticipantID, CategoryID, Status) VALUES (3, 2, 'Confirmed'), (3, 3, 'Confirmed'), (4, 1, 'Confirmed'), (4, 6, 'Confirmed');
 
-
+INSERT INTO Results (EnrolmentID, FinishTime, Position, Status) VALUES (1, '01:45:32', 12, 'Finished'), (3, '03:58:10', 45, 'Finished'); 
 
 
 
